@@ -25,5 +25,5 @@ document.getElementById("play").onclick = function() {
 	      }
 		  alert(result);
   }
-  alert("3 rounds are inished");
+  alert("Game is over either user won or 3 rounds are inished");
 };
