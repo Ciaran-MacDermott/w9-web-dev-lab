@@ -36,7 +36,7 @@ document.getElementById("play").onclick = function () {
   );
 
   // ===========================
-  // UPDATE THE SCREEN USING A FOR LOOP
+  // UPDATE THE SCREEN USING  FOR LOOP
   // ===========================
 
   let output = "";
