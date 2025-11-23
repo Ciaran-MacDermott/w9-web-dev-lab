@@ -12,14 +12,16 @@ document.getElementById("play").onclick = function() {
   	//merged game-winning logic
 	      if (userRound === compChoice) {
 	          result = "Tie, refresh the page to play again";
-	      } else if (
+	      } 
+		  else if (
 	          (userRound === "rock" && compChoice === "scissors") ||
 	          (userRound === "paper" && compChoice === "rock") ||
 	          (userRound === "scissors" && compChoice === "paper")
 	      ) {
-	          result = "You win click to play again";
+	          result = "You win";
 	          round += 1;
-	      } else {
+	      } 
+		  else {
 	          result =  "You lose sorry" cick to play again;    
 	          round += 1;
 	      }
